@@ -1,0 +1,43 @@
+Stock-Market-Trend-Analysis
+├──  data                    # Raw and processed datasets
+│   ├── raw/                   # Unprocessed data files
+│   ├── processed/             # Cleaned and transformed datasets
+│   └── stock_data.csv         # Sample dataset (optional)
+│
+├──  notebooks               # Jupyter Notebooks for analysis
+│   ├── 1-data_collection.ipynb
+│   ├── 2-eda.ipynb
+│   ├── 3-moving_averages.ipynb
+│   ├── 4-arima_forecasting.ipynb
+│   └── 5-sentiment_analysis.ipynb
+│
+├──  src                     # Source code (Python scripts)
+│   ├── data_loader.py         # Fetches stock data from yfinance
+│   ├── trend_analysis.py      # Moving averages, RSI, MACD
+│   ├── forecasting.py         # ARIMA model predictions
+│   ├── sentiment_analysis.py  # NLP-based sentiment analysis
+│   └── app.py                 # Web app (Flask/Streamlit) (Optional)
+│
+├──  reports                 # Analysis reports and visualizations
+│   ├── trend_analysis.pdf     # Summary of trends
+│   ├── forecasting_results.pdf
+│   └── sentiment_results.pdf
+│
+├──  models                  # Trained ML models (if any)
+│   └── arima_model.pkl        # Saved ARIMA model
+│
+├──  dashboards              # Power BI / Tableau Dashboards
+│   ├── stock_dashboard.pbix   # Power BI file
+│   ├── stock_dashboard.twbx   # Tableau workbook
+│
+├──  docs                    # Documentation
+│   ├── README.md              # Project overview, setup instructions
+│   ├── INSTALL.md             # How to install dependencies
+│   ├── DATASET.md             # Description of dataset
+│   ├── USAGE.md               # How to use the scripts
+│   └── CONTRIBUTING.md        # Guidelines for contributors
+│
+├── .gitignore                 # Ignore unnecessary files (e.g., __pycache__, datasets)
+├── requirements.txt           # List of dependencies (e.g., pandas, numpy, yfinance)
+├── LICENSE                    # Open-source license (MIT, Apache, etc.)
+└── README.md                  # Main project description
